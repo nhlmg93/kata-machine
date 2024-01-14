@@ -14,7 +14,7 @@
         "typescript": "^4.7.4"
     },
     "scripts": {
-        "test": "jest PrimsList",
+        "test": "jest DFSOnBST BTBFS BTPreOrder BTInOrder BTPostOrder CompareBinaryTrees",
         "clear": "node ./scripts/clear.js",
         "prettier": "prettier --write ./src",
         "generate": "node ./scripts/generate.js",

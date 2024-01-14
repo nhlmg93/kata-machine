@@ -1,29 +1,32 @@
+/*
+        "SinglyLinkedList",
+        "LinearSearchList",
+*
+        "ArrayList",
+        "DoublyLinkedList",
+*
+        "DFSGraphList",
+        "BFSGraphMatrix",
+        "MinHeap",
+        "Queue",
+        "Stack",
+        "TwoCrystalBalls",
+        "QuickSort",
+        "BubbleSort",
+        "MazeSolver",
+        "LRU",
+        "Trie",
+        "MergeSort",
+        "Map",
+ */
+
 module.exports = {
     dsa: [
         "DFSOnBST",
-        "LRU",
-        "LinearSearchList",
-        "BinarySearchList",
-        "TwoCrystalBalls",
-        "BubbleSort",
-        "SinglyLinkedList",
-        "DoublyLinkedList",
-        "Queue",
-        "Stack",
-        "ArrayList",
-        "MazeSolver",
-        "QuickSort",
+        "BTBFS",
         "BTPreOrder",
         "BTInOrder",
         "BTPostOrder",
-        "BTBFS",
         "CompareBinaryTrees",
-        "DFSOnBST",
-        "DFSGraphList",
-        "Trie",
-        "BFSGraphMatrix",
-        "Map",
-        "MinHeap",
     ],
 }
-
