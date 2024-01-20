@@ -4,12 +4,16 @@
 *
         "ArrayList",
         "DoublyLinkedList",
+        "DFSOnBST",
+        "BTBFS",
+        "BTPreOrder",
+        "BTInOrder",
+        "BTPostOrder",
+        "CompareBinaryTrees",
 *
         "DFSGraphList",
         "BFSGraphMatrix",
         "MinHeap",
-        "Queue",
-        "Stack",
         "TwoCrystalBalls",
         "QuickSort",
         "BubbleSort",
@@ -22,11 +26,7 @@
 
 module.exports = {
     dsa: [
-        "DFSOnBST",
-        "BTBFS",
-        "BTPreOrder",
-        "BTInOrder",
-        "BTPostOrder",
-        "CompareBinaryTrees",
+        "Queue",
+        "Stack",
     ],
 }

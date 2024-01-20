@@ -72,7 +72,7 @@ export default class DoublyLinkedList<T> {
         if (curr.prev) curr.prev.next = curr.next;
         if (curr.next) curr.next.prev = curr.prev;
         if (curr === this.head) this.head = curr.next;
-        if (curr === this.head) this.tail = curr.prev;
+        if (curr === this.tail) this.tail = curr.prev;
         curr.next = curr.prev = undefined;
         this.length--;
         return curr.item;
@@ -97,7 +97,7 @@ export default class DoublyLinkedList<T> {
         if (curr.prev) curr.prev.next = curr.next;
         if (curr.next) curr.next.prev = curr.prev;
         if (curr === this.head) this.head = curr.next;
-        if (curr === this.head) this.tail = curr.prev;
+        if (curr === this.tail) this.tail = curr.prev;
 
         curr.next = curr.prev = undefined;
         this.length--;
