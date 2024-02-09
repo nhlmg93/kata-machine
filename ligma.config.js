@@ -10,23 +10,23 @@
         "BTInOrder",
         "BTPostOrder",
         "CompareBinaryTrees",
+        "Queue",
+        "Stack",
 *
-        "DFSGraphList",
-        "BFSGraphMatrix",
         "MinHeap",
-        "TwoCrystalBalls",
-        "QuickSort",
-        "BubbleSort",
-        "MazeSolver",
         "LRU",
         "Trie",
         "MergeSort",
         "Map",
+        "MazeSolver",
+        "QuickSort",
+        "BubbleSort",
+        "TwoCrystalBalls",
  */
 
 module.exports = {
     dsa: [
-        "Queue",
-        "Stack",
+        "DFSGraphList",
+        "BFSGraphMatrix",
     ],
 }

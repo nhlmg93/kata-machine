@@ -61,9 +61,9 @@ export default class ArrayList<T> {
         return idx < this.length ? this.arr[idx] : undefined;
     }
     removeAt(idx: number): T | undefined {
-        if(idx >= this.length) return undefined
+        if (idx >= this.length) return undefined;
         const val = this.arr[idx];
-        this.shiftLeft(idx)
-        return val
+        this.shiftLeft(idx);
+        return val;
     }
 }
