@@ -14,15 +14,17 @@
         "Stack",
         "DFSGraphList",
         "BFSGraphMatrix",
-*
+        "QuickSort"
         "MinHeap",
         "LRU",
         "Trie",
         "MergeSort",
         "Map",
         "MazeSolver",
+        "BubbleSort"
+        "TwoCrystalBalls"
  */
 
 module.exports = {
-    dsa: ["QuickSort", "BubbleSort", "TwoCrystalBalls"],
+    dsa: ["ArrayList","DoublyLinkedList"],
 };
